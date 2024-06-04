@@ -53,9 +53,11 @@ $ rosrun rqt_image_view rqt_image_view
 
 ## Result
 Initially, the white ball is beyond the camera view.
+
 <img src="./screenshot/gazebo.png" width="600">
 <img src="./screenshot/original_rviz.png" width="600">
 
 After dragging the white ball to camera's view, the robot can move to the ball succesfully. 
+
 <img src="./screenshot/ball_in_view.png" width="600">
 <img src="./screenshot/robot_moving_to_ball.png" width="600">
