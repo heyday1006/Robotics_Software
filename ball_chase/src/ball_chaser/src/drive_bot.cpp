@@ -16,7 +16,7 @@ bool handle_drive_request(ball_chaser::DriveToTarget::Request& req,
 		float linear_x = (float)req.linear_x;
   	float angular_z = (float)req.angular_z;
   
-    ROS_INFO("DriveToTargetRequest received - j1:%1.2f, j2:%1.2f", linear_x, angular_z);
+    ROS_INFO("DriveToTargetRequest received - linear_x:%1.2f, angular_z:%1.2f", linear_x, angular_z);
 
     // publish the requested linear x and angular velocities to the robot wheel joints
     geometry_msgs::Twist motor_command;
