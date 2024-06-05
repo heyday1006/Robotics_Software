@@ -196,7 +196,7 @@
 
     <visual>
       <geometry>
-        <mesh filename="package://my_robot/meshes/hokuyo.dae"/>
+        <mesh filename="package://my_robot/meshes/hokuyo.dae" />
       </geometry>
     </visual>
   </link>
@@ -211,15 +211,15 @@
   <!-- Given components some color -->
   
   <gazebo reference="chassis">
-    <material>Gazebo/Green</material>
+    <material>Gazebo/Orange</material>
 	</gazebo>
 	
   <gazebo reference="left_wheel">
-    <material>Gazebo/Orange</material>
+    <material>Gazebo/Blue</material>
 	</gazebo>
 	
 	<gazebo reference="right_wheel">
-    <material>Gazebo/Orange</material>
+    <material>Gazebo/Blue</material>
 	</gazebo>
 	
 	<gazebo reference="camera">
